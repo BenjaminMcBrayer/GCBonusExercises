@@ -10,6 +10,8 @@ public class ExerciseThree {
 		userNum = scnr.nextDouble();
 		userNum = userNum + 0.5;
 		System.out.println(userNum);
+		
+		scnr.close();
 	}
 
 }

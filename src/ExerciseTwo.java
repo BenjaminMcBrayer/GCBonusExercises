@@ -10,6 +10,8 @@ public class ExerciseTwo {
 		userNum = scnr.nextInt();
 		userNum = userNum + 1;
 		System.out.println(userNum);
+		
+		scnr.close();
 	}
 
 }

@@ -9,6 +9,8 @@ public class ExerciseOne {
 		System.out.print("Enter some text: ");
 		userInput = scnr.nextLine();
 		System.out.println(userInput);
+		
+		scnr.close();
 	}
 
 }
