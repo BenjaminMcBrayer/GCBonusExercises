@@ -26,7 +26,7 @@ public class ExerciseSeven {
 		int odd = 0;
 		int remainder = (odd % 2);
 		odd = 51;
-		System.out.println(remainder);
+		System.out.println(remainder); //why does this print as 0? 51 mod 2 = 1, not 0!
 				
 		
 	}
